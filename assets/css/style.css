@@ -140,8 +140,9 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dddddd;
+  padding-bottom: 80px;
 }
 
 /* portfolio page */
@@ -224,4 +225,19 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+.parent {
+  position: relative;
+  margin-top: 50px;
+}
+
+.parent h3 {
+  position: absolute;
+  bottom: auto;
+  left:15px;
+  right: 15px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 5px;
+  
 }
